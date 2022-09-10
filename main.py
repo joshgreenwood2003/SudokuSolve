@@ -7,7 +7,7 @@ for i in range(9):
         options[i].append([1,2,3,4,5,6,7,8,9])
 
 def removefrom(assignment,i,j,possible):
-    print("ORIGINAL")
+    print("ORIGINAL", str(i),str(j),str(possible))
     print(assignment)
     print("Now isolating " + str(possible))
     new = copy.deepcopy(assignment)
