@@ -8,8 +8,6 @@ for i in range(9):
         filled[i].append(False)
         options[i].append([1,2,3,4,5,6,7,8,9])
 
-
-
 def removefrom(assignment,i,j,possible):
    # print("GOT" + str(possible) +" "+ str(i) +" "+ str(j))
    # print(assignment)
